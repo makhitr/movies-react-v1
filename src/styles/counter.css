@@ -1,0 +1,41 @@
+.counterWrapper {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 50px;
+}
+
+.counterBtn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(59, 147, 110);
+  color: #f0f0f0;
+  font-size: 1.5rem;
+}
+
+.counterWrapper .minusBtn {
+margin-right: -20px;
+z-index: 1;
+}
+
+.counterWrapper .plusBtn {
+margin-left: -20px;
+}
+
+.counterCount {
+  height: 100px;
+  width: 100px;
+  color: #f0f0f0;
+  background-color: rgb(10, 240, 144);
+  border: 2px solid rgb(83, 202, 152);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+

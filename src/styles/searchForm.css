@@ -1,0 +1,36 @@
+.form-wrapper {
+  width: 960px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.searchInput {
+  width: 713px;
+  background: rgba(50, 50, 50, 0.8);
+  opacity: 0.7;
+  border-radius: 4px;
+  padding: 10px;
+  font-family: inherit;
+  font-size: 20px;
+}
+
+::placeholder {
+  color: #ffffff;
+  opacity: 0.3;
+}
+
+.searchBtn {
+  width: 233px;
+  height: 54px;
+  background: #f65261;
+  border-radius: 4px;
+  text-align: center;
+  font-family: inherit;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: inherit;
+  border: none;
+  cursor: pointer;
+}
