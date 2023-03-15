@@ -1,0 +1,21 @@
+
+.genreListWrapper {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+.genreBtn {
+  border: none;
+  background-color: transparent;
+  color: inherit;
+  font-family: inherit;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.genreBtn.selected {
+  text-decoration: underline;
+  text-decoration-color: #F65261;
+  text-underline-offset: 1rem;
+}
